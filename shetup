@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# chmod +x shetup
+
+echo 'Show all files in finder...'
+defaults write com.apple.finder AppleShowAllFiles YES
+killall Finder
+
+echo 'Set subl sym link...'
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl

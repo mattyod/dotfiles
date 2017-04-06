@@ -1,5 +1,9 @@
 [user]
-	name = Matthew O'Donoghue
-	email = mattyod@gmail.com
+  name = Matthew O'Donoghue
+  email = mattyod@gmail.com
 [core]
-	editor = subl -n -w
+  editor = subl -n -w
+[alias]
+  glog = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+[status]
+  showUntrackedFiles = all

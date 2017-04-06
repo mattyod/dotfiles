@@ -13,3 +13,6 @@ killall Finder
 
 echo 'Set subl sym link...'
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+
+echo 'fetch git completion bash file...'
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash > ~/.git-completion.bash

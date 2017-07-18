@@ -5,10 +5,13 @@
 echo 'Show all files in finder...'
 defaults write com.apple.finder AppleShowAllFiles YES
 
-echo 'Show all extensions in finder'
+echo 'Show all extensions in finder...'
 defaults write NSGlobalDomain AppleShowAllExtensions YES
 
-echo 'restart finder'
+echo 'Show file path in finder...'
+defaults write com.apple.finder _FXShowPosixPathInTitle YES
+
+echo 'restart finder...'
 killall Finder
 
 echo 'Set subl sym link...'

@@ -2,19 +2,39 @@
   "draw_minimap_border": true,
   "draw_white_space": "all",
   "ensure_newline_at_eof_on_save": true,
-  "ignored_packages": [
+  "file_exclude_patterns":
+  [
+    ".eslintcache",
+    ".DS_Store",
+    "*.map",
+    "package-lock.json",
+  ],
+  "folder_exclude_patterns":
+  [
+    ".git",
+    "coverage",
+    "node_modules",
+    ".cache",
+    ".next",
+    ".terraform",
+    ".serverless",
+    ".dist"
+  ],
+  "font_face": "",
+  "font_size": 16,
+  "ignored_packages":
+  [
     "Vintage"
   ],
-  "rulers": [80, 72, 50],
+  "rulers":
+  [
+    80,
+    72,
+    50
+  ],
   "scroll_past_end": true,
   "show_full_path": true,
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
-  "trim_trailing_white_space_on_save": true,
-  "folder_exclude_patterns": [
-    "node_modules",
-  ],
-  "file_exclude_patterns": [
-    ".eslintcache"
-  ]
+  "trim_trailing_white_space_on_save": true
 }

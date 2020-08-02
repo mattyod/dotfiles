@@ -1,6 +1,4 @@
-export PS1='\e[92m\u \W:\e[39m '
-
-alias npmgls='npm -g ls --depth=0'
+export PS1='\[\e[92m\u \W:\e[39m \]'
 
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
 . $(brew --prefix)/etc/bash_completion
